@@ -10,6 +10,8 @@
 #include "InsertionSort.h"
 #include "MergeSort.h"
 #include "MaximumSubArray.h"
+#include "SquareMatrixMultiply.h"
+#include "StrassenAlgorithm.h"
 
 int main(int argc, const char * argv[]) {
     //int arr[] = { 602,  -3, 17, 999, 42, -11, 54, 54, 9 };
@@ -21,12 +23,22 @@ int main(int argc, const char * argv[]) {
     mergeSort->Run(arr, 0, 8);
     insertionSort->Print(arr, 9);*/
     
-    int arr[] = {13, -3, -25, 20, -3, -16, -23, 18, 20, -7, 12, -5, -22, 15, -4, 7};
+    //int arr[] = {13, -3, -25, 20, -3, -16, -23, 18, 20, -7, 12, -5, -22, 15, -4, 7};
 
-    MaximumSubArray *maxSub = new MaximumSubArray();
+    /*MaximumSubArray *maxSub = new MaximumSubArray();
     //int *arr = maxSub->CreateInput();
     MinMaxSum *result = maxSub->Run(arr, 0, 15);
-    std::cout << result->min << " " << result->max << " " << result->sum << std::endl;
+    std::cout << result->min << " " << result->max << " " << result->sum << std::endl;*/
+    
+    SquareMatrixMultiply *multiply = new SquareMatrixMultiply();
+    StrassenAlgorithm *strassen = new StrassenAlgorithm();
+    Matrix2D<int> *in1 = multiply->CreateInput1();
+    Matrix2D<int> *in2 = multiply->CreateInput1();
+    
+    Matrix2D<int> *result = strassen->Run(in1, in2);
+    in1->Print();
+    in2->Print();
+    result->Print();
     
     return 0;
 }

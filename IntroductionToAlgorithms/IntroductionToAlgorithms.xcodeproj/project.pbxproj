@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E12975561DA947A700EBA734 /* PermuteBySorting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E12975541DA947A700EBA734 /* PermuteBySorting.cpp */; };
 		E1FAF5C21D987925001A6EF6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1FAF5C11D987925001A6EF6 /* main.cpp */; };
 		E1FAF5CC1D9879AE001A6EF6 /* InsertionSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1FAF5CA1D9879AE001A6EF6 /* InsertionSort.cpp */; };
 		E1FAF5CF1D987D2E001A6EF6 /* MergeSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1FAF5CD1D987D2E001A6EF6 /* MergeSort.cpp */; };
 		E1FAF5D21D99B5C8001A6EF6 /* MaximumSubArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1FAF5D01D99B5C8001A6EF6 /* MaximumSubArray.cpp */; };
+		E1FAF5D51D9C4B74001A6EF6 /* SquareMatrixMultiply.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1FAF5D31D9C4B74001A6EF6 /* SquareMatrixMultiply.cpp */; };
+		E1FAF5D81D9C4E05001A6EF6 /* Matrix2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1FAF5D61D9C4E05001A6EF6 /* Matrix2D.cpp */; };
+		E1FAF5F11DA44A7F001A6EF6 /* StrassenAlgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1FAF5EF1DA44A7F001A6EF6 /* StrassenAlgorithm.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +30,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E12975541DA947A700EBA734 /* PermuteBySorting.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PermuteBySorting.cpp; sourceTree = "<group>"; };
+		E12975551DA947A700EBA734 /* PermuteBySorting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PermuteBySorting.h; sourceTree = "<group>"; };
 		E1FAF5BE1D987925001A6EF6 /* IntroductionToAlgorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = IntroductionToAlgorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1FAF5C11D987925001A6EF6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E1FAF5CA1D9879AE001A6EF6 /* InsertionSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InsertionSort.cpp; sourceTree = "<group>"; };
@@ -34,6 +40,12 @@
 		E1FAF5CE1D987D2E001A6EF6 /* MergeSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergeSort.h; sourceTree = "<group>"; };
 		E1FAF5D01D99B5C8001A6EF6 /* MaximumSubArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MaximumSubArray.cpp; sourceTree = "<group>"; };
 		E1FAF5D11D99B5C8001A6EF6 /* MaximumSubArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaximumSubArray.h; sourceTree = "<group>"; };
+		E1FAF5D31D9C4B74001A6EF6 /* SquareMatrixMultiply.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SquareMatrixMultiply.cpp; sourceTree = "<group>"; };
+		E1FAF5D41D9C4B74001A6EF6 /* SquareMatrixMultiply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SquareMatrixMultiply.h; sourceTree = "<group>"; };
+		E1FAF5D61D9C4E05001A6EF6 /* Matrix2D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Matrix2D.cpp; sourceTree = "<group>"; };
+		E1FAF5D71D9C4E05001A6EF6 /* Matrix2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matrix2D.h; sourceTree = "<group>"; };
+		E1FAF5EF1DA44A7F001A6EF6 /* StrassenAlgorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StrassenAlgorithm.cpp; sourceTree = "<group>"; };
+		E1FAF5F01DA44A7F001A6EF6 /* StrassenAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrassenAlgorithm.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +88,10 @@
 		E1FAF5C81D987974001A6EF6 /* Include */ = {
 			isa = PBXGroup;
 			children = (
+				E12975551DA947A700EBA734 /* PermuteBySorting.h */,
+				E1FAF5F01DA44A7F001A6EF6 /* StrassenAlgorithm.h */,
+				E1FAF5D71D9C4E05001A6EF6 /* Matrix2D.h */,
+				E1FAF5D41D9C4B74001A6EF6 /* SquareMatrixMultiply.h */,
 				E1FAF5CB1D9879AE001A6EF6 /* InsertionSort.h */,
 				E1FAF5CE1D987D2E001A6EF6 /* MergeSort.h */,
 				E1FAF5D11D99B5C8001A6EF6 /* MaximumSubArray.h */,
@@ -89,6 +105,10 @@
 				E1FAF5CA1D9879AE001A6EF6 /* InsertionSort.cpp */,
 				E1FAF5CD1D987D2E001A6EF6 /* MergeSort.cpp */,
 				E1FAF5D01D99B5C8001A6EF6 /* MaximumSubArray.cpp */,
+				E1FAF5D31D9C4B74001A6EF6 /* SquareMatrixMultiply.cpp */,
+				E1FAF5D61D9C4E05001A6EF6 /* Matrix2D.cpp */,
+				E1FAF5EF1DA44A7F001A6EF6 /* StrassenAlgorithm.cpp */,
+				E12975541DA947A700EBA734 /* PermuteBySorting.cpp */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -149,9 +169,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E12975561DA947A700EBA734 /* PermuteBySorting.cpp in Sources */,
+				E1FAF5D81D9C4E05001A6EF6 /* Matrix2D.cpp in Sources */,
+				E1FAF5D51D9C4B74001A6EF6 /* SquareMatrixMultiply.cpp in Sources */,
 				E1FAF5C21D987925001A6EF6 /* main.cpp in Sources */,
 				E1FAF5CF1D987D2E001A6EF6 /* MergeSort.cpp in Sources */,
 				E1FAF5CC1D9879AE001A6EF6 /* InsertionSort.cpp in Sources */,
+				E1FAF5F11DA44A7F001A6EF6 /* StrassenAlgorithm.cpp in Sources */,
 				E1FAF5D21D99B5C8001A6EF6 /* MaximumSubArray.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +297,7 @@
 				E1FAF5C71D987925001A6EF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
