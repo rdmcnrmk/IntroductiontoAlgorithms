@@ -13,6 +13,11 @@
 #include "SquareMatrixMultiply.h"
 #include "StrassenAlgorithm.h"
 
+#include "GraphWithList.h"
+#include "DepthFirstSearch.h"
+#include "BreadthFirstSearch.h"
+#include "WeightedGraphAlgorithms.h"
+
 int main(int argc, const char * argv[]) {
     //int arr[] = { 602,  -3, 17, 999, 42, -11, 54, 54, 9 };
     //int arr[] = { 602,  -3, 17, 999 };
@@ -30,7 +35,7 @@ int main(int argc, const char * argv[]) {
     MinMaxSum *result = maxSub->Run(arr, 0, 15);
     std::cout << result->min << " " << result->max << " " << result->sum << std::endl;*/
     
-    SquareMatrixMultiply *multiply = new SquareMatrixMultiply();
+    /*SquareMatrixMultiply *multiply = new SquareMatrixMultiply();
     StrassenAlgorithm *strassen = new StrassenAlgorithm();
     Matrix2D<int> *in1 = multiply->CreateInput1();
     Matrix2D<int> *in2 = multiply->CreateInput1();
@@ -38,7 +43,26 @@ int main(int argc, const char * argv[]) {
     Matrix2D<int> *result = strassen->Run(in1, in2);
     in1->Print();
     in2->Print();
-    result->Print();
+    result->Print();*/
+    
+    GraphWithList g(6, false);
+    g.AddEdge(0, 1, false);
+    g.AddEdge(1, 2, false);
+    g.AddEdge(2, 3, false);
+    g.AddEdge(3, 4, false);
+    g.AddEdge(4, 0, false);
+    g.AddEdge(1, 4, false);
+    g.AddEdge(0, 5, false);
+    g.PrintGraph();
+    
+    //BreadthFirstSearch *bfs = new BreadthFirstSearch(&g, 4);
+    //bfs->applyTwoColoringGrphs();
+    
+    DepthFirstSearch *dfs = new DepthFirstSearch(&g);
+    dfs->ApplyDFS(0);
+    //bfs->ApplyBFS(2);
+    //bfs->findpath(1, 3);
+    //DepthFirstSearch::DFSWAdjacencyListRecursive(&g, 2);
     
     return 0;
 }

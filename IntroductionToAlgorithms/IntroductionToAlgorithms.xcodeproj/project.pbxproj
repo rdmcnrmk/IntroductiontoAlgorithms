@@ -32,6 +32,11 @@
 /* Begin PBXFileReference section */
 		E12975541DA947A700EBA734 /* PermuteBySorting.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PermuteBySorting.cpp; sourceTree = "<group>"; };
 		E12975551DA947A700EBA734 /* PermuteBySorting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PermuteBySorting.h; sourceTree = "<group>"; };
+		E19439D91ED2E4CD004FDCEE /* DepthFirstSearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DepthFirstSearch.h; sourceTree = "<group>"; };
+		E19439DA1ED2E636004FDCEE /* GraphWithList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GraphWithList.h; sourceTree = "<group>"; };
+		E19439DB1ED2E644004FDCEE /* GraphWithMatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GraphWithMatrix.h; sourceTree = "<group>"; };
+		E19439DC1ED43A98004FDCEE /* BreadthFirstSearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BreadthFirstSearch.h; sourceTree = "<group>"; };
+		E19439DD1ED6FC24004FDCEE /* WeightedGraphAlgorithms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeightedGraphAlgorithms.h; sourceTree = "<group>"; };
 		E1FAF5BE1D987925001A6EF6 /* IntroductionToAlgorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = IntroductionToAlgorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1FAF5C11D987925001A6EF6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E1FAF5CA1D9879AE001A6EF6 /* InsertionSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InsertionSort.cpp; sourceTree = "<group>"; };
@@ -95,6 +100,11 @@
 				E1FAF5CB1D9879AE001A6EF6 /* InsertionSort.h */,
 				E1FAF5CE1D987D2E001A6EF6 /* MergeSort.h */,
 				E1FAF5D11D99B5C8001A6EF6 /* MaximumSubArray.h */,
+				E19439D91ED2E4CD004FDCEE /* DepthFirstSearch.h */,
+				E19439DA1ED2E636004FDCEE /* GraphWithList.h */,
+				E19439DB1ED2E644004FDCEE /* GraphWithMatrix.h */,
+				E19439DC1ED43A98004FDCEE /* BreadthFirstSearch.h */,
+				E19439DD1ED6FC24004FDCEE /* WeightedGraphAlgorithms.h */,
 			);
 			name = Include;
 			sourceTree = "<group>";
