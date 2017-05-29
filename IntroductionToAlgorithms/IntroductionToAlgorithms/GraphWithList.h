@@ -11,7 +11,7 @@
 
 #include <vector>
 
-#define MAXV 1000 /* maximum number of vertices */
+/*#define MAXV 1000 /* maximum number of vertices
 
 struct EdgeNode{
     int value;
@@ -51,7 +51,7 @@ EdgeNode** GraphWithList::GetEdges() { return edges; }
 bool GraphWithList::IsDirected() { return directed; }
 
 void GraphWithList::AddEdge(int v, int w, bool directed) {
-    EdgeNode *p; /* temporary pointer */
+    EdgeNode *p; /* temporary pointer 
     p = new EdgeNode();
     p->weight = NULL;
     p->value = w;
@@ -65,8 +65,6 @@ void GraphWithList::AddEdge(int v, int w, bool directed) {
     } else {
         nedges++;
     }
-    
-    
 }
 
 void GraphWithList::PrintGraph() {
@@ -81,7 +79,6 @@ void GraphWithList::PrintGraph() {
         }
         cout << endl;
     }
-    
-}
+}*/
 
 #endif /* GraphWithList_h */

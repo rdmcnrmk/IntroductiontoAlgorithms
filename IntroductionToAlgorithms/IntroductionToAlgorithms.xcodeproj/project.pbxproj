@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		E12975561DA947A700EBA734 /* PermuteBySorting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E12975541DA947A700EBA734 /* PermuteBySorting.cpp */; };
+		E19439E11ED86861004FDCEE /* graph_base.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E19439E01ED86861004FDCEE /* graph_base.cpp */; };
+		E19439E41ED88739004FDCEE /* graph_with_list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E19439E21ED88739004FDCEE /* graph_with_list.cpp */; };
+		E19439E71ED8DA41004FDCEE /* graph_with_matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E19439E51ED8DA41004FDCEE /* graph_with_matrix.cpp */; };
+		E19439E91ED8DE95004FDCEE /* depth_first_search.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E19439E81ED8DE95004FDCEE /* depth_first_search.cpp */; };
+		E19439EB1ED99246004FDCEE /* breadth_first_search.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E19439EA1ED99246004FDCEE /* breadth_first_search.cpp */; };
 		E1FAF5C21D987925001A6EF6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1FAF5C11D987925001A6EF6 /* main.cpp */; };
 		E1FAF5CC1D9879AE001A6EF6 /* InsertionSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1FAF5CA1D9879AE001A6EF6 /* InsertionSort.cpp */; };
 		E1FAF5CF1D987D2E001A6EF6 /* MergeSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1FAF5CD1D987D2E001A6EF6 /* MergeSort.cpp */; };
@@ -32,11 +37,18 @@
 /* Begin PBXFileReference section */
 		E12975541DA947A700EBA734 /* PermuteBySorting.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PermuteBySorting.cpp; sourceTree = "<group>"; };
 		E12975551DA947A700EBA734 /* PermuteBySorting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PermuteBySorting.h; sourceTree = "<group>"; };
-		E19439D91ED2E4CD004FDCEE /* DepthFirstSearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DepthFirstSearch.h; sourceTree = "<group>"; };
-		E19439DA1ED2E636004FDCEE /* GraphWithList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GraphWithList.h; sourceTree = "<group>"; };
+		E19439D91ED2E4CD004FDCEE /* depth_first_search.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = depth_first_search.h; sourceTree = "<group>"; };
 		E19439DB1ED2E644004FDCEE /* GraphWithMatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GraphWithMatrix.h; sourceTree = "<group>"; };
-		E19439DC1ED43A98004FDCEE /* BreadthFirstSearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BreadthFirstSearch.h; sourceTree = "<group>"; };
+		E19439DC1ED43A98004FDCEE /* breadth_first_search.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = breadth_first_search.h; sourceTree = "<group>"; };
 		E19439DD1ED6FC24004FDCEE /* WeightedGraphAlgorithms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeightedGraphAlgorithms.h; sourceTree = "<group>"; };
+		E19439DE1ED8599B004FDCEE /* graph_base.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = graph_base.h; sourceTree = "<group>"; };
+		E19439E01ED86861004FDCEE /* graph_base.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = graph_base.cpp; sourceTree = "<group>"; };
+		E19439E21ED88739004FDCEE /* graph_with_list.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = graph_with_list.cpp; sourceTree = "<group>"; };
+		E19439E31ED88739004FDCEE /* graph_with_list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = graph_with_list.h; sourceTree = "<group>"; };
+		E19439E51ED8DA41004FDCEE /* graph_with_matrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = graph_with_matrix.cpp; sourceTree = "<group>"; };
+		E19439E61ED8DA41004FDCEE /* graph_with_matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = graph_with_matrix.h; sourceTree = "<group>"; };
+		E19439E81ED8DE95004FDCEE /* depth_first_search.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = depth_first_search.cpp; sourceTree = "<group>"; };
+		E19439EA1ED99246004FDCEE /* breadth_first_search.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = breadth_first_search.cpp; sourceTree = "<group>"; };
 		E1FAF5BE1D987925001A6EF6 /* IntroductionToAlgorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = IntroductionToAlgorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1FAF5C11D987925001A6EF6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E1FAF5CA1D9879AE001A6EF6 /* InsertionSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InsertionSort.cpp; sourceTree = "<group>"; };
@@ -93,6 +105,8 @@
 		E1FAF5C81D987974001A6EF6 /* Include */ = {
 			isa = PBXGroup;
 			children = (
+				E19439E61ED8DA41004FDCEE /* graph_with_matrix.h */,
+				E19439E31ED88739004FDCEE /* graph_with_list.h */,
 				E12975551DA947A700EBA734 /* PermuteBySorting.h */,
 				E1FAF5F01DA44A7F001A6EF6 /* StrassenAlgorithm.h */,
 				E1FAF5D71D9C4E05001A6EF6 /* Matrix2D.h */,
@@ -100,11 +114,11 @@
 				E1FAF5CB1D9879AE001A6EF6 /* InsertionSort.h */,
 				E1FAF5CE1D987D2E001A6EF6 /* MergeSort.h */,
 				E1FAF5D11D99B5C8001A6EF6 /* MaximumSubArray.h */,
-				E19439D91ED2E4CD004FDCEE /* DepthFirstSearch.h */,
-				E19439DA1ED2E636004FDCEE /* GraphWithList.h */,
+				E19439D91ED2E4CD004FDCEE /* depth_first_search.h */,
 				E19439DB1ED2E644004FDCEE /* GraphWithMatrix.h */,
-				E19439DC1ED43A98004FDCEE /* BreadthFirstSearch.h */,
+				E19439DC1ED43A98004FDCEE /* breadth_first_search.h */,
 				E19439DD1ED6FC24004FDCEE /* WeightedGraphAlgorithms.h */,
+				E19439DE1ED8599B004FDCEE /* graph_base.h */,
 			);
 			name = Include;
 			sourceTree = "<group>";
@@ -119,6 +133,11 @@
 				E1FAF5D61D9C4E05001A6EF6 /* Matrix2D.cpp */,
 				E1FAF5EF1DA44A7F001A6EF6 /* StrassenAlgorithm.cpp */,
 				E12975541DA947A700EBA734 /* PermuteBySorting.cpp */,
+				E19439E01ED86861004FDCEE /* graph_base.cpp */,
+				E19439E21ED88739004FDCEE /* graph_with_list.cpp */,
+				E19439E51ED8DA41004FDCEE /* graph_with_matrix.cpp */,
+				E19439E81ED8DE95004FDCEE /* depth_first_search.cpp */,
+				E19439EA1ED99246004FDCEE /* breadth_first_search.cpp */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -179,13 +198,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E19439E41ED88739004FDCEE /* graph_with_list.cpp in Sources */,
+				E19439EB1ED99246004FDCEE /* breadth_first_search.cpp in Sources */,
 				E12975561DA947A700EBA734 /* PermuteBySorting.cpp in Sources */,
 				E1FAF5D81D9C4E05001A6EF6 /* Matrix2D.cpp in Sources */,
 				E1FAF5D51D9C4B74001A6EF6 /* SquareMatrixMultiply.cpp in Sources */,
+				E19439E11ED86861004FDCEE /* graph_base.cpp in Sources */,
 				E1FAF5C21D987925001A6EF6 /* main.cpp in Sources */,
 				E1FAF5CF1D987D2E001A6EF6 /* MergeSort.cpp in Sources */,
 				E1FAF5CC1D9879AE001A6EF6 /* InsertionSort.cpp in Sources */,
+				E19439E91ED8DE95004FDCEE /* depth_first_search.cpp in Sources */,
 				E1FAF5F11DA44A7F001A6EF6 /* StrassenAlgorithm.cpp in Sources */,
+				E19439E71ED8DA41004FDCEE /* graph_with_matrix.cpp in Sources */,
 				E1FAF5D21D99B5C8001A6EF6 /* MaximumSubArray.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
