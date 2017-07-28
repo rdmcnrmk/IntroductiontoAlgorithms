@@ -37,6 +37,14 @@
 /* Begin PBXFileReference section */
 		E12975541DA947A700EBA734 /* PermuteBySorting.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PermuteBySorting.cpp; sourceTree = "<group>"; };
 		E12975551DA947A700EBA734 /* PermuteBySorting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PermuteBySorting.h; sourceTree = "<group>"; };
+		E16D4B111F209A40000F9EDC /* ActivitySelectionProblem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActivitySelectionProblem.h; sourceTree = "<group>"; };
+		E16D4B121F20A66C000F9EDC /* EgyptianFraction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EgyptianFraction.h; sourceTree = "<group>"; };
+		E16D4B131F20BFA1000F9EDC /* JobSequencingProblem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JobSequencingProblem.h; sourceTree = "<group>"; };
+		E16D4B141F20E33B000F9EDC /* GraphWithLists.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GraphWithLists.h; sourceTree = "<group>"; };
+		E16D4B151F20EDB3000F9EDC /* BFS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFS.h; sourceTree = "<group>"; };
+		E16D4B161F20F597000F9EDC /* DFS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFS.h; sourceTree = "<group>"; };
+		E16D4B171F215090000F9EDC /* TopologicalSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopologicalSort.h; sourceTree = "<group>"; };
+		E16D4B181F2208E9000F9EDC /* DijkstraWithMatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DijkstraWithMatrix.h; sourceTree = "<group>"; };
 		E19439D91ED2E4CD004FDCEE /* depth_first_search.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = depth_first_search.h; sourceTree = "<group>"; };
 		E19439DB1ED2E644004FDCEE /* GraphWithMatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GraphWithMatrix.h; sourceTree = "<group>"; };
 		E19439DC1ED43A98004FDCEE /* breadth_first_search.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = breadth_first_search.h; sourceTree = "<group>"; };
@@ -49,6 +57,14 @@
 		E19439E61ED8DA41004FDCEE /* graph_with_matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = graph_with_matrix.h; sourceTree = "<group>"; };
 		E19439E81ED8DE95004FDCEE /* depth_first_search.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = depth_first_search.cpp; sourceTree = "<group>"; };
 		E19439EA1ED99246004FDCEE /* breadth_first_search.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = breadth_first_search.cpp; sourceTree = "<group>"; };
+		E1963D1A1F29D9BC000C99B9 /* BinomialCoefficient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinomialCoefficient.h; sourceTree = "<group>"; };
+		E1963D1B1F29F63E000C99B9 /* LongestCommonSubsequence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LongestCommonSubsequence.h; sourceTree = "<group>"; };
+		E1963D1C1F2B3CE1000C99B9 /* LargestSubArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LargestSubArray.h; sourceTree = "<group>"; };
+		E1963D1D1F2B4756000C99B9 /* UglyNumbers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UglyNumbers.h; sourceTree = "<group>"; };
+		E1963D1E1F2B5051000C99B9 /* MaxOnesSubMatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaxOnesSubMatrix.h; sourceTree = "<group>"; };
+		E1B9C5371F0FB61700319012 /* GraphMinimal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GraphMinimal.h; sourceTree = "<group>"; };
+		E1C509BB1F26769700915000 /* BasicDPProblem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicDPProblem.h; sourceTree = "<group>"; };
+		E1C509BC1F2684E400915000 /* Fibonacci.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fibonacci.h; sourceTree = "<group>"; };
 		E1FAF5BE1D987925001A6EF6 /* IntroductionToAlgorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = IntroductionToAlgorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1FAF5C11D987925001A6EF6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E1FAF5CA1D9879AE001A6EF6 /* InsertionSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InsertionSort.cpp; sourceTree = "<group>"; };
@@ -119,6 +135,22 @@
 				E19439DC1ED43A98004FDCEE /* breadth_first_search.h */,
 				E19439DD1ED6FC24004FDCEE /* WeightedGraphAlgorithms.h */,
 				E19439DE1ED8599B004FDCEE /* graph_base.h */,
+				E1B9C5371F0FB61700319012 /* GraphMinimal.h */,
+				E16D4B111F209A40000F9EDC /* ActivitySelectionProblem.h */,
+				E16D4B121F20A66C000F9EDC /* EgyptianFraction.h */,
+				E16D4B131F20BFA1000F9EDC /* JobSequencingProblem.h */,
+				E16D4B141F20E33B000F9EDC /* GraphWithLists.h */,
+				E16D4B151F20EDB3000F9EDC /* BFS.h */,
+				E16D4B161F20F597000F9EDC /* DFS.h */,
+				E16D4B171F215090000F9EDC /* TopologicalSort.h */,
+				E16D4B181F2208E9000F9EDC /* DijkstraWithMatrix.h */,
+				E1C509BB1F26769700915000 /* BasicDPProblem.h */,
+				E1C509BC1F2684E400915000 /* Fibonacci.h */,
+				E1963D1A1F29D9BC000C99B9 /* BinomialCoefficient.h */,
+				E1963D1B1F29F63E000C99B9 /* LongestCommonSubsequence.h */,
+				E1963D1C1F2B3CE1000C99B9 /* LargestSubArray.h */,
+				E1963D1D1F2B4756000C99B9 /* UglyNumbers.h */,
+				E1963D1E1F2B5051000C99B9 /* MaxOnesSubMatrix.h */,
 			);
 			name = Include;
 			sourceTree = "<group>";
